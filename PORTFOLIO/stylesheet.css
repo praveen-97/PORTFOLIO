@@ -1,0 +1,141 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    }
+    body{
+    width:100%;
+    background-image:url("bg.jpg");
+    background-size:auto;
+    background-repeat:no-repeat;
+    } 
+    .logo{
+        height: 50px;
+        width: 50px;
+    }
+    nav{
+    width: 100%;
+    height: 80px;
+    line-height:75px;
+    padding:0px 120px;
+    }
+    nav h1{
+    color: wheat;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    float: left;
+    }
+    nav th,td{
+        color: wheat;
+    }
+
+.page{
+    float: left;
+    color: whitesmoke;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-left: 125px;
+}
+    .hello{   
+    float: left;
+    padding-top: 50px;
+    margin-left: 250px;
+    height: 350px;
+    width: 300px;
+}
+.cocurricular h4{
+    font-size: 30px;
+    color: gold;
+    padding-top:30px ;
+    }
+    .cocurricular li{
+        color: wheat;
+        font-size: 27px;
+        padding-top: 10px;
+    }
+.btn{
+    font-size: 22px;
+    background-color:wheat;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 10px;
+    letter-spacing: .5;
+}
+.contact  {
+    font-size: 18px;
+    float: left;
+    margin-left: 125px;
+    margin-top: 150px;
+    color: wheat;
+}
+.inquiry{
+    margin-top: 100px;
+    float:  left;
+    margin-left: 120px;
+    font-size: 25px;
+    
+}
+.inquiry input{
+    height: 30px;
+    width: 250px;
+}
+.inquiry #box{
+    height: 150px;
+    width: 400px;
+}
+.inquiry a{
+    
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+    nav ul
+    {
+    float:right;
+    }
+    nav ul li
+    {
+    float:left;
+    list-style:none;
+    position:relative;
+    }
+    nav ul li a{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:wheat;
+    font-size: 20px;
+    padding: 0px 20px;
+    display:block;
+    }
+    nav ul li ul
+    {
+    position: absolute;
+    display:none;
+    background-color:rgb(92, 59, 152);
+    border-radius: 0px opx 5px 5px;
+    }
+    img{
+        height: 15px;
+    }
+    nav ul li ul li a
+    {
+    padding: 10px 20px;
+    }
+    nav ul li ul li a:hover
+    {
+    background-color: rgb(74, 38, 133);
+    }
+    nav ul li a:hover
+    {
+        border-radius: 40px;
+    background-color: rgb(74, 38, 133);
+    
+    }
+    nav ul li:hover ul
+    {
+    display:block;
+    }
